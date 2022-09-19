@@ -78,4 +78,4 @@ console.log(birler);
 
 const para="100";
 console.log(para + 15);10015
-console.log(Number(para)+ 15);
+console.log(Number(para)+15);
