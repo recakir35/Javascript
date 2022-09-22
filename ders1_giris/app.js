@@ -1,4 +1,4 @@
-//================== KONSOL MESAJLARI =========================================
+//! ================== KONSOL MESAJLARI =========================================
 
 console.log("Hello javascript"); // log kareli olanı tıklarsak otomatik yazar
 alert("Dikkat"); // Alert(İlk çıkan mesaj) Mesaj Yazdırmak için
@@ -7,22 +7,22 @@ console.error("Bu bir hatadır"); // error ile hata mesajı için
 prompt("Adınızı giriniz:"); // Prompt dışarıdan bir veri almak için
 
 
-//================== DEĞİŞKEN TANIMLAMA =========================================
+//! ================== DEĞİŞKEN TANIMLAMA =========================================
 
-// VAR:
+//? VAR:
 var isim="Recep"; // heryerden çağrılabilir hem string hemde integer olabilir.
                   // sadece var ile herşey tanımlanabiliyor.Tercih edilmiyor.
                   // Global değişken gibi düşünülebilir. 
 console.log(typeof isim);
 
-// CONST:
+//? CONST:
 
 const piSayisi=3.14; // Yazıldığı yerde geçerli oluyor. 
                      // Başlangıçta atanan değişken asla değiştirilemez.
 // piSayisi=3;  // Bu hata döndürür değiştirmek istediğimiz için
 console.log("const 1: " +typeof piSayisi)
 
-// LET:
+//? LET:
 let fiyat; // Yazıldığı yerde geçerli oluyor.
 fiyat=10;
 console.log("Let 1: " + typeof fiyat);
@@ -40,7 +40,7 @@ console.log(name3);
 // Template literal
 console.log(`Benim adım ${name1} yasşım ${name2}`);
 
-// ARİTMETİK OPERATÖRLER
+//! ARİTMETİK OPERATÖRLER
 
 //  Operatör	Açıklaması
 //  +	        Toplama
@@ -61,7 +61,7 @@ const sayi=123;
 const birler=sayi%10;
 console.log(birler);
 
-// KARŞILAŞTIRMA OPERATÖRLERİ
+//! KARŞILAŞTIRMA OPERATÖRLERİ
 
 /*  Operatör	Açıklaması
     a == b	    a ve b eşit mi?
@@ -74,7 +74,7 @@ console.log(birler);
     a <= b	    a değeri b değerinden küçük veya eşit mi?
     ?	        kısaltılmış koşul operatörü */
 
-// TİP DEĞİŞİMLERİ
+//! TİP DEĞİŞİMLERİ
 
 const para="100";
 console.log(para + 15);10015
